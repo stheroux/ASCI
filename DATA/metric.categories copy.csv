@@ -1,0 +1,392 @@
+﻿"BCG1,2,3,etc","Biological Condition Gradient rating 1-6 (1 sensitive, 6 tolerant) ",,
+CRUS,Cladophora glomerata + Rhizoclonium hieroglyphicum +Ulva flexuosa + Stigeoclonium spp. ,,
+ZHR,Zygnemataceae + heterocystous cyanobacteria + Rhodophyta. ,,
+SPI,Specific Pollution Sensitivity Index ,,
+NAHON,N-autotrophic-high organic N,,
+NALON,N-autotrophic-low organic N,,
+NHHONF,N-heterotrophic-high organic N (facultative),,
+NHHONO,N-heterotrophic-high organic N (obligate),,
+AMPS,alpha-meso/polysaprobous,,
+AM,alpha-mesosaprobous,,
+BM,beta-mesosaprobous,,
+OS,oligosaprobous,,
+PS,polysaprobous,,
+E,Eutrophic,,
+I,Indifferent,,
+M,Mesotrophic,,
+ME,Mesotrophic-Eutrophic,,
+O,Oligotrophic,,
+OM,Oligotrophic-Mesotrophic,,
+PH,Polytrophic (Hypereutrophic),,
+,,,
+metric,metric,Type,Category
+Achnanthes.richness,Achnanthes richness,predictive,Taxonomy
+Achnanthes.richness_raw,Achnanthes richness,non-predictive,Taxonomy
+Amphora.richness,Amphora richness,predictive,Taxonomy
+Amphora.richness_raw,Amphora richness,non-predictive,Taxonomy
+cnt.Green.in.CRUS,count of Green algae in CRUS,predictive,Taxonomy
+cnt.Green.in.CRUS_raw,count of Green algae in CRUS,non-predictive,Taxonomy
+cnt.ind.least.tol,count of least tolerant indicators,predictive,Tolerance
+cnt.ind.least.tol_raw,count of least tolerant indicators,non-predictive,Tolerance
+cnt.ind.most.tol,count of most tolerant indicators,predictive,Tolerance
+cnt.ind.most.tol_raw,count of most tolerant indicators,non-predictive,Tolerance
+Cocconeis.richness,Cocconeis richness,predictive,Taxonomy
+Cocconeis.richness_raw,Cocconeis richness,non-predictive,Taxonomy
+cnt.spp.BCG1,count of species BCG1,predictive,BCG
+cnt.spp.BCG1_raw,count of species BCG1,non-predictive,BCG
+cnt.spp.BCG12,count of species BCG12,predictive,BCG
+cnt.spp.BCG12_raw,count of species BCG12,non-predictive,BCG
+cnt.spp.BCG2,count of species BCG2,predictive,BCG
+cnt.spp.BCG2_raw,count of species BCG2,non-predictive,BCG
+cnt.spp.BCG3,count of species BCG3,predictive,BCG
+cnt.spp.BCG3_raw,count of species BCG3,non-predictive,BCG
+cnt.spp.BCG4,count of species BCG4,predictive,BCG
+cnt.spp.BCG4_raw,count of species BCG4,non-predictive,BCG
+cnt.spp.BCG45,count of species BCG45,predictive,BCG
+cnt.spp.BCG45_raw,count of species BCG45,non-predictive,BCG
+cnt.spp.BCG5,count of species BCG5,predictive,BCG
+cnt.spp.BCG5_raw,count of species BCG5,non-predictive,BCG
+cnt.spp.BCG6,count of species BCG6,predictive,BCG
+cnt.spp.BCG6_raw,count of species BCG6,non-predictive,BCG
+cnt.spp.CRUS,count of species CRUS,predictive,Taxonomy
+cnt.spp.CRUS_raw,count of species CRUS,non-predictive,Taxonomy
+cnt.spp.Green,count of species Green,predictive,Taxonomy
+cnt.spp.Green_raw,count of species Green,non-predictive,Taxonomy
+cnt.spp.Halo,count of species Halo,predictive,Salt
+cnt.spp.Halo_raw,count of species Halo,non-predictive,Salt
+cnt.spp.Heterocy,count of species heterocystous cyanobacteria,predictive,Heterocyst
+cnt.spp.Heterocy_raw,count of species heterocystous cyanobacteria,non-predictive,Heterocyst
+cnt.spp.HighMotility,count of species HighMotility,predictive,Motility
+cnt.spp.HighMotility_raw,count of species HighMotility,non-predictive,Motility
+cnt.spp.IndicatorClass_Cu_high,count of species IndicatorClass_Cu_high,predictive,Copper
+cnt.spp.IndicatorClass_Cu_high_raw,count of species IndicatorClass_Cu_high,non-predictive,Copper
+cnt.spp.IndicatorClass_DOC_high,count of species IndicatorClass_DOC_high,predictive,DOC
+cnt.spp.IndicatorClass_DOC_high_raw,count of species IndicatorClass_DOC_high,non-predictive,DOC
+cnt.spp.IndicatorClass_NonRef,count of species IndicatorClass_NonRef,predictive,NonRef
+cnt.spp.IndicatorClass_NonRef_raw,count of species IndicatorClass_NonRef,non-predictive,NonRef
+cnt.spp.IndicatorClass_Ref,count of species IndicatorClass_Ref,predictive,Ref
+cnt.spp.IndicatorClass_Ref_raw,count of species IndicatorClass_Ref,non-predictive,Ref
+cnt.spp.IndicatorClass_TN_high,count of species IndicatorClass_TN_high,predictive,Nitrogen
+cnt.spp.IndicatorClass_TN_high_raw,count of species IndicatorClass_TN_high,non-predictive,Nitrogen
+cnt.spp.IndicatorClass_TN_low,count of species IndicatorClass_TN_low,predictive,Nitrogen
+cnt.spp.IndicatorClass_TN_low_raw,count of species IndicatorClass_TN_low,non-predictive,Nitrogen
+cnt.spp.IndicatorClass_TP_high,count of species IndicatorClass_TP_high,predictive,Phosphorous
+cnt.spp.IndicatorClass_TP_high_raw,count of species IndicatorClass_TP_high,non-predictive,Phosphorous
+cnt.spp.IndicatorClass_TP_low,count of species IndicatorClass_TP_low,predictive,Phosphorous
+cnt.spp.IndicatorClass_TP_low_raw,count of species IndicatorClass_TP_low,non-predictive,Phosphorous
+cnt.spp.least.tol,count of species least tolerant,predictive,Tolerance
+cnt.spp.least.tol_raw,count of species least tolerant,non-predictive,Tolerance
+cnt.spp.MinMotility,count of species MinMotility,predictive,Motility
+cnt.spp.MinMotility_raw,count of species MinMotility,non-predictive,Motility
+cnt.spp.ModMotility,count of species ModMotility,predictive,Motility
+cnt.spp.ModMotility_raw,count of species ModMotility,non-predictive,Motility
+cnt.spp.most.tol,count of species most tolerant,predictive,Tolerance
+cnt.spp.most.tol_raw,count of species most tolerant,non-predictive,Tolerance
+cnt.spp.NHeterotroph,count of species NHeterotroph,predictive,Heterotroph
+cnt.spp.NHeterotroph_raw,count of species NHeterotroph,non-predictive,Heterotroph
+cnt.spp.NNS,count of species Navicula Nitzschia Surirella,predictive,Taxonomy
+cnt.spp.NNS_raw,count of species Navicula Nitzschia Surirella,non-predictive,Taxonomy
+cnt.spp.NonMotile,count of species NonMotile,predictive,Motility
+cnt.spp.NonMotile_raw,count of species NonMotile,non-predictive,Motility
+cnt.spp.OxyReq.DO_atleast50,count of species OxyReq.DO_atleast50,predictive,Oxygen
+cnt.spp.OxyReq.DO_atleast50_raw,count of species OxyReq.DO_atleast50,non-predictive,Oxygen
+cnt.spp.Planktonic,count of species Planktonic,predictive,Motility
+cnt.spp.Planktonic_raw,count of species Planktonic,non-predictive,Motility
+cnt.spp.SPIspecies1,count of species SPIspecies1,predictive,SPI
+cnt.spp.SPIspecies1_raw,count of species SPIspecies1,non-predictive,SPI
+cnt.spp.SPIspecies12,count of species SPIspecies12,predictive,SPI
+cnt.spp.SPIspecies12_raw,count of species SPIspecies12,non-predictive,SPI
+cnt.spp.SPIspecies2,count of species SPIspecies2,predictive,SPI
+cnt.spp.SPIspecies2_raw,count of species SPIspecies2,non-predictive,SPI
+cnt.spp.SPIspecies3,count of species SPIspecies3,predictive,SPI
+cnt.spp.SPIspecies3_raw,count of species SPIspecies3,non-predictive,SPI
+cnt.spp.SPIspecies4,count of species SPIspecies4,predictive,SPI
+cnt.spp.SPIspecies4_raw,count of species SPIspecies4,non-predictive,SPI
+cnt.spp.SPIspecies45,count of species SPIspecies45,predictive,SPI
+cnt.spp.SPIspecies45_raw,count of species SPIspecies45,non-predictive,SPI
+cnt.spp.ZHR,count of species ZHR,predictive,Taxonomy
+cnt.spp.ZHR_raw,count of species ZHR,non-predictive,Taxonomy
+Cyclotella.richness,Cyclotella richness,predictive,Taxonomy
+Cyclotella.richness_raw,Cyclotella richness,non-predictive,Taxonomy
+Cymbella.richness,Cymbella richness,predictive,Taxonomy
+Cymbella.richness_raw,Cymbella richness,non-predictive,Taxonomy
+EpiRho.richness,Epithemia and Rhopalodia richness,predictive,Taxonomy
+EpiRho.richness_raw,Epithemia and Rhopalodia richness,non-predictive,Taxonomy
+Epithemia.richness,Epithemia richness,predictive,Taxonomy
+Epithemia.richness_raw,Epithemia richness,non-predictive,Taxonomy
+Eunotia.richness,Eunotia richness,predictive,Taxonomy
+Eunotia.richness_raw,Eunotia richness,non-predictive,Taxonomy
+Fragilaria.richness,Fragilaria richness,predictive,Taxonomy
+Fragilaria.richness_raw,Fragilaria richness,non-predictive,Taxonomy
+Frustulia.richness,Frustulia richness,predictive,Taxonomy
+Frustulia.richness_raw,Frustulia richness,non-predictive,Taxonomy
+Gomphonema.richness,Gomphonema richness,predictive,Taxonomy
+Gomphonema.richness_raw,Gomphonema richness,non-predictive,Taxonomy
+Navicula.richness,Navicula richness,predictive,Taxonomy
+Navicula.richness_raw,Navicula richness,non-predictive,Taxonomy
+Nitzschia.richness,Nitzschia richness,predictive,Taxonomy
+Nitzschia.richness_raw,Nitzschia richness,non-predictive,Taxonomy
+OrgN.NAHON.richness,OrgN.NAHON richness,predictive,NitrogenAq
+OrgN.NAHON.richness_raw,OrgN.NAHON richness,non-predictive,NitrogenAq
+OrgN.NALON.richness,OrgN.NALON richness,predictive,NitrogenAq
+OrgN.NALON.richness_raw,OrgN.NALON richness,non-predictive,NitrogenAq
+OrgN.NHHONF.richness,OrgN.NHHONF richness,predictive,NitrogenAq
+OrgN.NHHONF.richness_raw,OrgN.NHHONF richness,non-predictive,NitrogenAq
+OrgN.NHHONForNHHONO.richness,OrgN.NHHONForNHHONO richness,predictive,NitrogenAq
+OrgN.NHHONForNHHONO.richness_raw,OrgN.NHHONForNHHONO richness,non-predictive,NitrogenAq
+OrgN.NHHONO.richness,OrgN.NHHONO richness,predictive,NitrogenAq
+OrgN.NHHONO.richness_raw,OrgN.NHHONO richness,non-predictive,NitrogenAq
+OxyRed.DO_30.richness,OxyRed.DO_30 richness,predictive,Oxygen
+OxyRed.DO_30.richness_raw,OxyRed.DO_30 richness,non-predictive,Oxygen
+OxyReq.DO_10.richness,OxyReq.DO_10 richness,predictive,Oxygen
+OxyReq.DO_10.richness_raw,OxyReq.DO_10 richness,non-predictive,Oxygen
+OxyReq.DO_100.richness,OxyReq.DO_100 richness,predictive,Oxygen
+OxyReq.DO_100.richness_raw,OxyReq.DO_100 richness,non-predictive,Oxygen
+OxyReq.DO_100orDO_75.richness,OxyReq.DO_100orDO_75 richness,predictive,Oxygen
+OxyReq.DO_100orDO_75.richness_raw,OxyReq.DO_100orDO_75 richness,non-predictive,Oxygen
+OxyReq.DO_100orDO_75orDO_50.richness,OxyReq.DO_100orDO_75orDO_50 richness,predictive,Oxygen
+OxyReq.DO_100orDO_75orDO_50.richness_raw,OxyReq.DO_100orDO_75orDO_50 richness,non-predictive,Oxygen
+OxyReq.DO_30andDO_10.richness,OxyReq.DO_30andDO_10 richness,predictive,Oxygen
+OxyReq.DO_30andDO_10.richness_raw,OxyReq.DO_30andDO_10 richness,non-predictive,Oxygen
+OxyReq.DO_50.richness,OxyReq.DO_50 richness,predictive,Oxygen
+OxyReq.DO_50.richness_raw,OxyReq.DO_50 richness,non-predictive,Oxygen
+OxyReq.DO_75.richness,OxyReq.DO_75 richness,predictive,Oxygen
+OxyReq.DO_75.richness_raw,OxyReq.DO_75 richness,non-predictive,Oxygen
+prop.Achnanthes,proportion of species Achnanthes,predictive,Taxonomy
+prop.Achnanthes_raw,proportion of species Achnanthes,non-predictive,Taxonomy
+prop.AchOverAchPlusNav,proportion of species AchOverAchPlusNav,predictive,Taxonomy
+prop.AchOverAchPlusNav_raw,proportion of species AchOverAchPlusNav,non-predictive,Taxonomy
+prop.Amphora,proportion of species Amphora,predictive,Taxonomy
+prop.Amphora_raw,proportion of species Amphora,non-predictive,Taxonomy
+prop.spp.BCG1,proportion of species BCG1,predictive,BCG
+prop.spp.BCG1_raw,proportion of species BCG1,non-predictive,BCG
+prop.spp.BCG12,proportion of species BCG12,predictive,BCG
+prop.spp.BCG12_raw,proportion of species BCG12,non-predictive,BCG
+prop.spp.BCG2,proportion of species BCG2,predictive,BCG
+prop.spp.BCG2_raw,proportion of species BCG2,non-predictive,BCG
+prop.spp.BCG3,proportion of species BCG3,predictive,BCG
+prop.spp.BCG3_raw,proportion of species BCG3,non-predictive,BCG
+prop.spp.BCG4,proportion of species BCG4,predictive,BCG
+prop.spp.BCG4_raw,proportion of species BCG4,non-predictive,BCG
+prop.spp.BCG45,proportion of species BCG45,predictive,BCG
+prop.spp.BCG45_raw,proportion of species BCG45,non-predictive,BCG
+prop.spp.BCG5,proportion of species BCG5,predictive,BCG
+prop.spp.BCG5_raw,proportion of species BCG5,non-predictive,BCG
+prop.spp.BCG6,proportion of species BCG6,predictive,BCG
+prop.spp.BCG6_raw,proportion of species BCG6,non-predictive,BCG
+prop.Cocconeis,proportion of species Cocconeis,predictive,Taxonomy
+prop.Cocconeis_raw,proportion of species Cocconeis,non-predictive,Taxonomy
+prop.spp.CRUS,proportion of species CRUS,predictive,Taxonomy
+prop.spp.CRUS_raw,proportion of species CRUS,non-predictive,Taxonomy
+prop.Cyclotella,proportion of species Cyclotella,predictive,Taxonomy
+prop.Cyclotella_raw,proportion of species Cyclotella,non-predictive,Taxonomy
+prop.Cymbella,proportion of species Cymbella,predictive,Taxonomy
+prop.Cymbella_raw,proportion of species Cymbella,non-predictive,Taxonomy
+prop.CymOverCymPlusNav,proportion of species CymOverCymPlusNav,predictive,Taxonomy
+prop.CymOverCymPlusNav_raw,proportion of species CymOverCymPlusNav,non-predictive,Taxonomy
+prop.EpiOverEpiPlusRho,proportion of species EpiOverEpiPlusRho,predictive,Taxonomy
+prop.EpiOverEpiPlusRho_raw,proportion of species EpiOverEpiPlusRho,non-predictive,Taxonomy
+prop.Epithemia,proportion of species Epithemia,predictive,Taxonomy
+prop.Epithemia_raw,proportion of species Epithemia,non-predictive,Taxonomy
+prop.Eunotia,proportion of species Eunotia,predictive,Taxonomy
+prop.Eunotia_raw,proportion of species Eunotia,non-predictive,Taxonomy
+prop.Fragilaria,proportion of species Fragilaria,predictive,Taxonomy
+prop.Fragilaria_raw,proportion of species Fragilaria,non-predictive,Taxonomy
+prop.Frustulia,proportion of species Frustulia,predictive,Taxonomy
+prop.Frustulia_raw,proportion of species Frustulia,non-predictive,Taxonomy
+prop.Gomphonema,proportion of species Gomphonema,predictive,Taxonomy
+prop.Gomphonema_raw,proportion of species Gomphonema,non-predictive,Taxonomy
+prop.spp.Green,proportion of species Green,predictive,Taxonomy
+prop.spp.Green_raw,proportion of species Green,non-predictive,Taxonomy
+prop.spp.Green.in.CRUS,proportion of species Green algae in CRUS,predictive,Taxonomy
+prop.spp.Green.in.CRUS_raw,proportion of species Green algae in CRUS,non-predictive,Taxonomy
+prop.spp.Halo,proportion of species Halo,predictive,Salt
+prop.spp.Halo_raw,proportion of species Halo,non-predictive,Salt
+prop.spp.Heterocy,proportion of species heterocystous cyanobacteria,predictive,Heterocyst
+prop.spp.Heterocy_raw,proportion of species heterocystous cyanobacteria,non-predictive,Heterocyst
+prop.spp.HighMotility,proportion of species HighMotility,predictive,Motility
+prop.spp.HighMotility_raw,proportion of species HighMotility,non-predictive,Motility
+prop.ind.least.tol,proportion of species least tolerant indicators,predictive,Tolerance
+prop.ind.least.tol_raw,proportion of species least tolerant indicators,non-predictive,Tolerance
+prop.ind.most.tol,proportion of species most tolerant indicators,predictive,Tolerance
+prop.ind.most.tol_raw,proportion of species most tolerant indicators,non-predictive,Tolerance
+prop.spp.IndicatorClass_Cu_high,proportion of species IndicatorClass_Cu_high,predictive,Copper
+prop.spp.IndicatorClass_Cu_high_raw,proportion of species IndicatorClass_Cu_high,non-predictive,Copper
+prop.spp.IndicatorClass_DOC_high,proportion of species IndicatorClass_DOC_high,predictive,DOC
+prop.spp.IndicatorClass_DOC_high_raw,proportion of species IndicatorClass_DOC_high,non-predictive,DOC
+prop.spp.IndicatorClass_NonRef,proportion of species IndicatorClass_NonRef,predictive,Tolerance
+prop.spp.IndicatorClass_NonRef_raw,proportion of species IndicatorClass_NonRef,non-predictive,Tolerance
+prop.spp.IndicatorClass_Ref,proportion of species IndicatorClass_Ref,predictive,Tolerance
+prop.spp.IndicatorClass_Ref_raw,proportion of species IndicatorClass_Ref,non-predictive,Tolerance
+prop.spp.IndicatorClass_TN_high,proportion of species IndicatorClass_TN_high,predictive,Nitrogen
+prop.spp.IndicatorClass_TN_high_raw,proportion of species IndicatorClass_TN_high,non-predictive,Nitrogen
+prop.spp.IndicatorClass_TN_low,proportion of species IndicatorClass_TN_low,predictive,Nitrogen
+prop.spp.IndicatorClass_TN_low_raw,proportion of species IndicatorClass_TN_low,non-predictive,Nitrogen
+prop.spp.IndicatorClass_TP_high,proportion of species IndicatorClass_TP_high,predictive,Phosphorous
+prop.spp.IndicatorClass_TP_high_raw,proportion of species IndicatorClass_TP_high,non-predictive,Phosphorous
+prop.spp.IndicatorClass_TP_low,proportion of species IndicatorClass_TP_low,predictive,Phosphorous
+prop.spp.IndicatorClass_TP_low_raw,proportion of species IndicatorClass_TP_low,non-predictive,Phosphorous
+prop.spp.least.tol,proportion of species least tolerant,predictive,Tolerance
+prop.spp.least.tol_raw,proportion of species least tolerant,non-predictive,Tolerance
+prop.spp.MinMotility,proportion of species MinMotility,predictive,Motility
+prop.spp.MinMotility_raw,proportion of species MinMotility,non-predictive,Motility
+prop.spp.ModMotility,proportion of species ModMotility,predictive,Motility
+prop.spp.ModMotility_raw,proportion of species ModMotility,non-predictive,Motility
+prop.spp.most.tol,proportion of species most tolerant,predictive,Tolerance
+prop.spp.most.tol_raw,proportion of species most tolerant,non-predictive,Tolerance
+prop.Navicula,proportion of species Navicula,predictive,Taxonomy
+prop.Navicula_raw,proportion of species Navicula,non-predictive,Taxonomy
+prop.spp.NHeterotroph,proportion of species NHeterotroph,predictive,Heterotroph
+prop.spp.NHeterotroph_raw,proportion of species NHeterotroph,non-predictive,Heterotroph
+prop.Nitzschia,proportion of species Nitzschia,predictive,Taxonomy
+prop.Nitzschia_raw,proportion of species Nitzschia,non-predictive,Taxonomy
+prop.NNS,proportion of species Navicula Nitzschia Surirella,predictive,Taxonomy
+prop.NNS_raw,proportion of species Navicula Nitzschia Surirella,non-predictive,Taxonomy
+prop.spp.NonMotile,proportion of species NonMotile,predictive,Motility
+prop.spp.NonMotile_raw,proportion of species NonMotile,non-predictive,Motility
+prop.spp.OrgN.NAHON,proportion of species OrgN.NAHON,predictive,NitrogenAq
+prop.spp.OrgN.NAHON_raw,proportion of species OrgN.NAHON,non-predictive,NitrogenAq
+prop.spp.OrgN.NALON,proportion of species OrgN.NALON,predictive,NitrogenAq
+prop.spp.OrgN.NALON_raw,proportion of species OrgN.NALON,non-predictive,NitrogenAq
+prop.spp.OrgN.NHHONF,proportion of species OrgN.NHHONF,predictive,NitrogenAq
+prop.spp.OrgN.NHHONF_raw,proportion of species OrgN.NHHONF,non-predictive,NitrogenAq
+prop.spp.OrgN.NHHONForNHHONO,proportion of species OrgN.NHHONForNHHONO,predictive,NitrogenAq
+prop.spp.OrgN.NHHONForNHHONO_raw,proportion of species OrgN.NHHONForNHHONO,non-predictive,NitrogenAq
+prop.spp.OrgN.NHHONO,proportion of species OrgN.NHHONO,predictive,NitrogenAq
+prop.spp.OrgN.NHHONO_raw,proportion of species OrgN.NHHONO,non-predictive,NitrogenAq
+prop.spp.OxyRed.DO_30,proportion of species OxyRed.DO_30,predictive,Oxygen
+prop.spp.OxyRed.DO_30_raw,proportion of species OxyRed.DO_30,non-predictive,Oxygen
+prop.spp.OxyReq.DO_10,proportion of species OxyReq.DO_10,predictive,Oxygen
+prop.spp.OxyReq.DO_10_raw,proportion of species OxyReq.DO_10,non-predictive,Oxygen
+prop.spp.OxyReq.DO_100,proportion of species OxyReq.DO_100,predictive,Oxygen
+prop.spp.OxyReq.DO_100_raw,proportion of species OxyReq.DO_100,non-predictive,Oxygen
+prop.spp.OxyReq.DO_100orDO_75,proportion of species OxyReq.DO_100orDO_75,predictive,Oxygen
+prop.spp.OxyReq.DO_100orDO_75_raw,proportion of species OxyReq.DO_100orDO_75,non-predictive,Oxygen
+prop.spp.OxyReq.DO_30orDO_10,proportion of species OxyReq.DO_30orDO_10,predictive,Oxygen
+prop.spp.OxyReq.DO_30orDO_10_raw,proportion of species OxyReq.DO_30orDO_10,non-predictive,Oxygen
+prop.spp.OxyReq.DO_50,proportion of species OxyReq.DO_50,predictive,Oxygen
+prop.spp.OxyReq.DO_50_raw,proportion of species OxyReq.DO_50,non-predictive,Oxygen
+prop.spp.OxyReq.DO_75,proportion of species OxyReq.DO_75,predictive,Oxygen
+prop.spp.OxyReq.DO_75_raw,proportion of species OxyReq.DO_75,non-predictive,Oxygen
+prop.spp.OxyReq.DO_atleast50,proportion of species OxyReq.DO_atleast50,predictive,Oxygen
+prop.spp.OxyReq.DO_atleast50_raw,proportion of species OxyReq.DO_atleast50,non-predictive,Oxygen
+prop.spp.Planktonic,proportion of species Planktonic,predictive,Motility
+prop.spp.Planktonic_raw,proportion of species Planktonic,non-predictive,Motility
+prop.spp.Planktonic.genus,proportion of species Planktonic.genus,predictive,Motility
+prop.spp.Planktonic.genus_raw,proportion of species Planktonic.genus,non-predictive,Motility
+prop.Rhoicosphenia,proportion of species Rhoicosphenia,predictive,Taxonomy
+prop.Rhoicosphenia_raw,proportion of species Rhoicosphenia,non-predictive,Taxonomy
+prop.Rhopalodia,proportion of species Rhopalodia,predictive,Taxonomy
+prop.Rhopalodia_raw,proportion of species Rhopalodia,non-predictive,Taxonomy
+prop.spp.Salinity.B,proportion of species Salinity.B,predictive,Salt
+prop.spp.Salinity.B_raw,proportion of species Salinity.B,non-predictive,Salt
+prop.spp.Salinity.BF,proportion of species Salinity.BF,predictive,Salt
+prop.spp.Salinity.BF_raw,proportion of species Salinity.BF,non-predictive,Salt
+prop.spp.Salinity.F,proportion of species Salinity.F,predictive,Salt
+prop.spp.Salinity.F_raw,proportion of species Salinity.F,non-predictive,Salt
+prop.spp.Salinity.FB,proportion of species Salinity.FB,predictive,Salt
+prop.spp.Salinity.FB_raw,proportion of species Salinity.FB,non-predictive,Salt
+prop.spp.Saprobic.AM,proportion of species Saprobic.AM,predictive,Saprobic
+prop.spp.Saprobic.AM_raw,proportion of species Saprobic.AM,non-predictive,Saprobic
+prop.spp.Saprobic.AMorAMPS,proportion of species Saprobic.AMorAMPS,predictive,Saprobic
+prop.spp.Saprobic.AMorAMPS_raw,proportion of species Saprobic.AMorAMPS,non-predictive,Saprobic
+prop.spp.Saprobic.AMPS,proportion of species Saprobic.AMPS,predictive,Saprobic
+prop.spp.Saprobic.AMPS_raw,proportion of species Saprobic.AMPS,non-predictive,Saprobic
+prop.spp.Saprobic.BM,proportion of species Saprobic.BM,predictive,Saprobic
+prop.spp.Saprobic.BM_raw,proportion of species Saprobic.BM,non-predictive,Saprobic
+prop.spp.Saprobic.OS,proportion of species Saprobic.OS,predictive,Saprobic
+prop.spp.Saprobic.OS_raw,proportion of species Saprobic.OS,non-predictive,Saprobic
+prop.spp.Saprobic.OSorPS,proportion of species Saprobic.OSorPS,predictive,Saprobic
+prop.spp.Saprobic.OSorPS_raw,proportion of species Saprobic.OSorPS,non-predictive,Saprobic
+prop.spp.Saprobic.PS,proportion of species Saprobic.PS,predictive,Saprobic
+prop.spp.Saprobic.PS_raw,proportion of species Saprobic.PS,non-predictive,Saprobic
+prop.spp.SPIspecies1,proportion of species SPIspecies1,predictive,SPI
+prop.spp.SPIspecies1_raw,proportion of species SPIspecies1,non-predictive,SPI
+prop.spp.SPIspecies12,proportion of species SPIspecies12,predictive,SPI
+prop.spp.SPIspecies12_raw,proportion of species SPIspecies12,non-predictive,SPI
+prop.spp.SPIspecies2,proportion of species SPIspecies2,predictive,SPI
+prop.spp.SPIspecies2_raw,proportion of species SPIspecies2,non-predictive,SPI
+prop.spp.SPIspecies3,proportion of species SPIspecies3,predictive,SPI
+prop.spp.SPIspecies3_raw,proportion of species SPIspecies3,non-predictive,SPI
+prop.spp.SPIspecies4,proportion of species SPIspecies4,predictive,SPI
+prop.spp.SPIspecies4_raw,proportion of species SPIspecies4,non-predictive,SPI
+prop.spp.SPIspecies45,proportion of species SPIspecies45,predictive,SPI
+prop.spp.SPIspecies45_raw,proportion of species SPIspecies45,non-predictive,SPI
+prop.Surirella,proportion of species Surirella,predictive,Taxonomy
+prop.Surirella_raw,proportion of species Surirella,non-predictive,Taxonomy
+prop.Synedra,proportion of species Synedra,predictive,Taxonomy
+prop.Synedra_raw,proportion of species Synedra,non-predictive,Taxonomy
+prop.spp.Trophic.E,proportion of species Trophic.E,predictive,Trophic
+prop.spp.Trophic.E_raw,proportion of species Trophic.E,non-predictive,Trophic
+prop.spp.Trophic.EorI,proportion of species Trophic.EorI,predictive,Trophic
+prop.spp.Trophic.EorI_raw,proportion of species Trophic.EorI,non-predictive,Trophic
+prop.spp.Trophic.I,proportion of species Trophic.I,predictive,Trophic
+prop.spp.Trophic.I_raw,proportion of species Trophic.I,non-predictive,Trophic
+prop.spp.Trophic.M,proportion of species Trophic.M,predictive,Trophic
+prop.spp.Trophic.M_raw,proportion of species Trophic.M,non-predictive,Trophic
+prop.spp.Trophic.ME,proportion of species Trophic.ME,predictive,Trophic
+prop.spp.Trophic.ME_raw,proportion of species Trophic.ME,non-predictive,Trophic
+prop.spp.Trophic.O,proportion of species Trophic.O,predictive,Trophic
+prop.spp.Trophic.O_raw,proportion of species Trophic.O,non-predictive,Trophic
+prop.spp.Trophic.OM,proportion of species Trophic.OM,predictive,Trophic
+prop.spp.Trophic.OM_raw,proportion of species Trophic.OM,non-predictive,Trophic
+prop.spp.Trophic.OorOMorPH,proportion of species Trophic.OorOMorPH,predictive,Trophic
+prop.spp.Trophic.OorOMorPH_raw,proportion of species Trophic.OorOMorPH,non-predictive,Trophic
+prop.spp.Trophic.PH,proportion of species Trophic.PH,predictive,Trophic
+prop.spp.Trophic.PH_raw,proportion of species Trophic.PH,non-predictive,Trophic
+prop.spp.ZHR,proportion of species ZHR,predictive,Taxonomy
+prop.spp.ZHR_raw,proportion of species ZHR,non-predictive,Taxonomy
+Rhoicosphenia.richness,Rhoicosphenia richness,predictive,Taxonomy
+Rhoicosphenia.richness_raw,Rhoicosphenia richness,non-predictive,Taxonomy
+Rhopalodia.richness,Rhopalodia richness,predictive,Taxonomy
+Rhopalodia.richness_raw,Rhopalodia richness,non-predictive,Taxonomy
+richness,richness,predictive,Diversity
+richness_raw,richness,non-predictive,Diversity
+Salinity.B.richness,Salinity brackish richness,predictive,Salt
+Salinity.B.richness_raw,Salinity brackish richness,non-predictive,Salt
+Salinity.BF.richness,Salinity brackish/fresh richness,predictive,Salt
+Salinity.BF.richness_raw,Salinity brackish/fresh richness,non-predictive,Salt
+Salinity.F.richness,Salinity freshwater richness,predictive,Salt
+Salinity.F.richness_raw,Salinity freshwater richness,non-predictive,Salt
+Salinity.FB.richness,Salinity fresh/brackish richness,predictive,Salt
+Salinity.FB.richness_raw,Salinity fresh/brackish richness,non-predictive,Salt
+Saprobic.AM.richness,Saprobic.AM richness,predictive,Saprobic
+Saprobic.AM.richness_raw,Saprobic.AM richness,non-predictive,Saprobic
+Saprobic.AMorAMPS.richness,Saprobic.AMorAMPS richness,predictive,Saprobic
+Saprobic.AMorAMPS.richness_raw,Saprobic.AMorAMPS richness,non-predictive,Saprobic
+Saprobic.AMPS.richness,Saprobic.AMPS richness,predictive,Saprobic
+Saprobic.AMPS.richness_raw,Saprobic.AMPS richness,non-predictive,Saprobic
+Saprobic.BM.richness,Saprobic.BM richness,predictive,Saprobic
+Saprobic.BM.richness_raw,Saprobic.BM richness,non-predictive,Saprobic
+Saprobic.OS.richness,Saprobic.OS richness,predictive,Saprobic
+Saprobic.OS.richness_raw,Saprobic.OS richness,non-predictive,Saprobic
+Saprobic.OSandPS.richness,Saprobic.OSandPS richness,predictive,Saprobic
+Saprobic.OSandPS.richness_raw,Saprobic.OSandPS richness,non-predictive,Saprobic
+Saprobic.PS.richness,Saprobic.PS richness,predictive,Saprobic
+Saprobic.PS.richness_raw,Saprobic.PS richness,non-predictive,Saprobic
+shannon,shannon,predictive,Diversity
+shannon_raw,shannon,non-predictive,Diversity
+simpson,simpson,predictive,Diversity
+simpson_raw,simpson,non-predictive,Diversity
+Surirella.richness,Surirella richness,predictive,Taxonomy
+Surirella.richness_raw,Surirella richness,non-predictive,Taxonomy
+Synedra.richness,Synedra richness,predictive,Taxonomy
+Synedra.richness_raw,Synedra richness,non-predictive,Taxonomy
+Trophic.E.richness,Trophic.E richness,predictive,Trophic
+Trophic.E.richness_raw,Trophic.E richness,non-predictive,Trophic
+Trophic.EorI.richness,Trophic.EorI richness,predictive,Trophic
+Trophic.EorI.richness_raw,Trophic.EorI richness,non-predictive,Trophic
+Trophic.I.richness,Trophic.I richness,predictive,Trophic
+Trophic.I.richness_raw,Trophic.I richness,non-predictive,Trophic
+Trophic.M.richness,Trophic.M richness,predictive,Trophic
+Trophic.M.richness_raw,Trophic.M richness,non-predictive,Trophic
+Trophic.ME.richness,Trophic.ME richness,predictive,Trophic
+Trophic.ME.richness_raw,Trophic.ME richness,non-predictive,Trophic
+Trophic.O.richness,Trophic.O richness,predictive,Trophic
+Trophic.O.richness_raw,Trophic.O richness,non-predictive,Trophic
+Trophic.OM.richness,Trophic.OM richness,predictive,Trophic
+Trophic.OM.richness_raw,Trophic.OM richness,non-predictive,Trophic
+Trophic.OorOMorPH.richness,Trophic.OorOMorPH richness,predictive,Trophic
+Trophic.OorOMorPH.richness_raw,Trophic.OorOMorPH richness,non-predictive,Trophic
+Trophic.PH.richness,Trophic.PH richness,predictive,Trophic
+Trophic.PH.richness_raw,Trophic.PH richness,non-predictive,Trophic
